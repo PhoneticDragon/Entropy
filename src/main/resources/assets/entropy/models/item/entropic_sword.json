@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "eternalism:item/eternal_sword"
+    "layer0": "entropy:item/entropic_sword"
   }
 }
