@@ -11,7 +11,7 @@ import phoneticdragon.entropy.Entropy;
 
 public class ModItems {
     public static final Item ENTROPICSWORD = registerItem("entropic_sword",
-            new SwordItem(ModToolMaterial.ENTROPIC, 5, -2.6f, new FabricItemSettings().maxCount(1)));
+            new SwordItem(ModToolMaterial.ENTROPIC, 5, -3f, new FabricItemSettings().maxCount(1)));
 
 
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
