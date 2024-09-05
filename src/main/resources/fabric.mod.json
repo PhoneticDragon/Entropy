@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "entropy",
+  "version": "${version}",
+  "name": "Entropic Blade",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/entropy/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "phoneticdragon.entropy.EntropyClient"
+    ],
+    "main": [
+      "phoneticdragon.entropy.Entropy"
+    ]
+  },
+  "mixins": [
+    "entropy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
