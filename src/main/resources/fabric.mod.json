@@ -3,9 +3,14 @@
   "id": "entropy",
   "version": "${version}",
   "name": "Entropic Blade",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "Just a Custom Sword for Myself",
+  "authors": [
+    "PhoneticDragon"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/entropy/icon.png",
   "environment": "*",
@@ -22,7 +27,8 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "java": ">=17",
+    "fabric": "*"
   }
 }
